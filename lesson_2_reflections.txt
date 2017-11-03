@@ -11,14 +11,28 @@ only commit changes we make to files after they are added to the staging area.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+add only the file you want to commit to the staging area. then commit. or after every change to a file,
+add it to the staging area and commit.
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+experiments
+different languages
+different versions with different functionalities
+
 
 How do the diagrams help you visualize the branch structure?
+unreachable nodes can be known.
+whether branches are mergeable or not can be known.
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+merging two branches combines  changes from both the branches. adds new lines. it links two branches' commits.
+
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+automatic merging makes it easier for us to commit changes which are independent of each other.
+but it will cause a conflict when there are changes in the same functional area.
