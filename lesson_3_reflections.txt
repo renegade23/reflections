@@ -19,14 +19,18 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    we can get to know the changes done to the remote while we were offline, in case we collaborate.
+    this will help us to merge the changes in an easier way.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Without using git and github, things can be ver messy. it is not humanly possible to keep track of all the changes we make
+    in all the files we have in our repository.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    when multiple people are working on separate branches on separate aspects of the repository, or 
+    when we want to collaborate.
+    But working directly on the master will make it easier
